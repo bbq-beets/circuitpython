@@ -1,4 +1,4 @@
-CircuitPythons
+CircuitPython
 =============
 
 .. image:: https://s3.amazonaws.com/adafruit-circuit-python/CircuitPython_Repo_header_logo.png
