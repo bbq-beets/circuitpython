@@ -7,7 +7,7 @@ import yaml
 
 import build_board_info
 
-workflow_file = '.github/workflows/build.yml'
+workflow_file = '.github/workflows-lab/build.yml'
 
 # Get boards in json format
 boards_info_json = build_board_info.get_board_mapping()
