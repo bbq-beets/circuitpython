@@ -273,10 +273,6 @@ jobs:
         - "winterbloom_sol"
         - "xinabox_cc03"
         - "xinabox_cs11"
-        - "xinabox_cs11"
-        - "xinabox_cs11"
-        - "xinabox_cs11"
-        - "xinabox_cs11"
 
     steps:
     - name: Set up Python 3.8
