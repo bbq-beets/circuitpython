@@ -1,16 +1,3 @@
-```
-NWO:                         bbq-beets/circuitpython
-Repo Host Id:            f8921301-5290-49e0-a065-c6f289b9b2ea
-Repo Host name:       HmSWxNa3yzxST9foT6XaYCXtvLbu6qlYuMnEcW6EKocJr4V6OF
-Repo Scale Unit:         pipelines-ghub-eus-2
-Owner Host Id:          64b4cdfd-3c8b-42d8-88e8-1529ac885423
-Owner Host name:    TDJsTfRk6vNjaH4i05QaaQlIZzHAkLRpfrWDhESEfDT0s1mjXI
-Owner Scale Unit:     pipelines-ghub-eus2-0
-```
-
-`pipelinesghubeus2.database.windows.net;Pipelines_28ec196b-866b-4e05-adbe-ff4cf6202da5`
-
-
 CircuitPythons
 ==============
 
