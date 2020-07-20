@@ -1,22 +1,24 @@
 ```
 NWO:                         bbq-beets/circuitpython
-Repo Host Id:            f8921301-5290-49e0-a065-c6f289b9b2ea
-Repo Host name:       HmSWxNa3yzxST9foT6XaYCXtvLbu6qlYuMnEcW6EKocJr4V6OF
-Repo Scale Unit:         pipelines-ghub-eus-2
-Owner Host Id:          64b4cdfd-3c8b-42d8-88e8-1529ac885423
-Owner Host name:    TDJsTfRk6vNjaH4i05QaaQlIZzHAkLRpfrWDhESEfDT0s1mjXI
+Repo Host Id:            d4c60b93-b9b0-43dc-b3d9-6fedb9465ca4
+Repo Host name:       gQWWZ2iVCPdpU2WFdbi4NJk4UwyczrdTSZB8F5FqAFeokB8zTm
+Repo Scale Unit:         pipelines-ghub-eus2-0
+Owner Host Id:          09280ada-7128-466c-806e-b85f3e11b6fe
+Owner Host name:    PsUSNIquLnVi6agc9T6LIh1j6E30sGDY1U5aOTPifwYqPa70ou
 Owner Scale Unit:     pipelines-ghub-eus2-0
 ```
 
 
-`pipelinesghubeus2.database.windows.net;Pipelines_28ec196b-866b-4e05-adbe-ff4cf6202da5`
+`pipelinesghubeus2.database.windows.net;Pipelines_e38ec7c8-3ad3-420c-bfa8-ff491bdb4083`
 
-Owner: `pipelinesghubeus20.database.windows.net;Pipelines_ecea9efc-4d20-41c3-b7d1-5aa7a58394ea`
+```
+select * from tbl_DatabasePartitionMap where ServiceHostId='d4c60b93-b9b0-43dc-b3d9-6fedb9465ca4' --collection 3535
 
-Repo:
-`select * from tbl_OrchestrationSession where PartitionId=30558`
 
-Owner:
-`select * from tbl_OrchestrationSession where PartitionId=1632`
+select * from tbl_OrchestrationSession where PartitionId=3535 and SessionIdentifier like '%_events%' order by LastUpdatedOn desc
+
+select * from tbl_OrchestrationState where PartitionId=3535 and InstanceIdentifier like '%_events%' order by LastUpdatedOn desc
+
+```
 
 
