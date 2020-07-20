@@ -13,7 +13,10 @@ Owner Scale Unit:     pipelines-ghub-eus2-0
 
 Owner: `pipelinesghubeus20.database.windows.net;Pipelines_ecea9efc-4d20-41c3-b7d1-5aa7a58394ea`
 
-Since it's hosted... sessions runs at owner level! (ring0)
+Repo:
+`select * from tbl_OrchestrationSession where PartitionId=30558`
+
+Owner:
 `select * from tbl_OrchestrationSession where PartitionId=1632`
 
 
